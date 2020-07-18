@@ -153,8 +153,8 @@ document.write (` La cantidad de consultas para traumatología es: ${traumatolog
 document.write (` La cantidad de conultas para Dental es: ${dentalLongitud} </br>`);
 
 //mostrar primera y última atención de cada arreglo
-document.write(` Primera atención: ${radiologia[0].Paciente} - ${radiologia[0].Prevision}  | Última atención: ${radiologia[radiologiaLongitud - 1].Paciente} - ${radiologia [radiologiaLongitud - 1].Prevision} </br>`);
+document.write(` Primera atención de radiología es: ${radiologia[0].Paciente} - ${radiologia[0].Prevision}  | Última atención de radiología es: ${radiologia[radiologiaLongitud - 1].Paciente} - ${radiologia [radiologiaLongitud - 1].Prevision} </br>`);
 
-document.write(` Primera atención: ${traumatologia[0].Paciente} - ${traumatologia[0].Prevision}  | Última atención: ${traumatologia[traumatologiaLongitud - 1].Paciente} - ${traumatologia[traumatologiaLongitud - 1].Prevision} </br>`);
+document.write(` Primera atención de traumatología es: ${traumatologia[0].Paciente} - ${traumatologia[0].Prevision}  | Última atención de traumatología es: ${traumatologia[traumatologiaLongitud - 1].Paciente} - ${traumatologia[traumatologiaLongitud - 1].Prevision} </br>`);
 
-document.write(` Primera atención: ${dental[0].Paciente} - ${dental[0].Prevision}  | Última atención: ${dental[dentalLongitud - 1].Paciente} - ${dental [dentalLongitud - 1].Prevision} </br>`);
+document.write(` Primera atención de dental es: ${dental[0].Paciente} - ${dental[0].Prevision}  | Última atención de dental es: ${dental[dentalLongitud - 1].Paciente} - ${dental [dentalLongitud - 1].Prevision} </br>`);
